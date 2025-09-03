@@ -4,6 +4,13 @@ This repository implements **MultiTopoNet**, a topological convolutional neural 
 
 The goal is to improve the explainability of neural networks through the bifiltration learning process, while maintaining high classification performance on medical imaging datasets.
 
+<br>
+
+<p align="center">
+  <img src="assets/immagine_multitoponet.png" alt="MultiTopoNet architecture" width="800"/>
+</p>
+<p align="center"><em>Figure: MultiTopoNet architecture.</em></p>
+
 ---
 
 ## 📁 Project Structure
@@ -21,14 +28,13 @@ The goal is to improve the explainability of neural networks through the bifiltr
 
 - [`utils/`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/tree/main/utils)  
   - [`data.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/utils/data.py): Dataset loading and preprocessing.  
-  - [`metrics.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/utils/metrics.py): Evaluation metrics (AUC, etc.).  
+  - [`metrics.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/utils/metrics.py): Evaluation metrics (AUC).  
   - [`label_map.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/utils/label_map.py): Dataset-specific label mappings.  
   - [`formatter.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/utils/formatter.py): Signed measure formatting utilities.
 
 - [`explainability/`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/tree/main/explainability)  
   - [`surfaces.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/explainability/surfaces.py): Euler surfaces computation and visualization.  
-  - [`outputs.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/explainability/outputs.py): Model outputs for explanation.  
-  - [`plots.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/explainability/plots.py): Plotting critical points and diagrams.
+  - [`visualization.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/explainability/visualization.py): Visualization of model outputs for explainability analysis.  
 
 - [`results/`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/tree/main/results)  
   Folder for saved models and explainability outputs.
@@ -161,3 +167,4 @@ Feel free to reach out for questions or collaborations.
 
 - [**MedMNIST**](https://github.com/MedMNIST/MedMNIST): Lightweight benchmark for medical image analysis.  
 - [**multipers**](https://github.com/simongresta/multipers): Multiparameter persistent homology framework.
+
