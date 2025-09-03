@@ -3,7 +3,7 @@ import torch
 
 from medmnist import PathMNIST, OCTMNIST, TissueMNIST
 
-from data.dataloaders import get_data
+from utils.dataloaders import get_data
 from utils.label_map import get_label_map
 from training.loss import get_cost_function
 from training.train import train_model, test

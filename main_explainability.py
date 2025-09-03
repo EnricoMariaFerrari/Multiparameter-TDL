@@ -6,7 +6,7 @@ import torch
 from medmnist import PathMNIST, OCTMNIST, TissueMNIST
 
 from models.toponet import TopoNet
-from data.dataloaders import get_data_testing
+from utils.dataloaders import get_data_testing
 from explainability.surfaces import compute_net_output, euler_surfaces_on_grid
 from explainability.visualization import get_critical_complex_plots
 
