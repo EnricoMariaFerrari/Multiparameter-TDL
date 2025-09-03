@@ -15,8 +15,9 @@ The goal is to improve the explainability of neural networks through the bifiltr
 
 ## 📁 Project Structure
 
-- [`main.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/main.py)  
-  Main training, validation, and testing script.
+- [`main/`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/main.py)
+  - [`main_experiment.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/main/main_experiment.py):  Main script for training, validation, and testing.
+  - [`main_explainability.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/main/main_explainability.py): Main script for explainability analysis of trained models.
 
 - [`models/`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/tree/main/models)  
   - [`toponet.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/models/toponet.py): Definition of the TopoNet architecture.
@@ -26,16 +27,16 @@ The goal is to improve the explainability of neural networks through the bifiltr
   - [`loss.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/training/loss.py): Contrastive and classification loss functions.  
   - [`optimizer.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/training/optimizer.py): Optimizer setup.
 
+- [`explainability/`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/tree/main/explainability)  
+  - [`surfaces.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/explainability/surfaces.py): Euler surfaces computation and visualization.  
+  - [`visualization.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/explainability/visualization.py): Visualization of model outputs for explainability analysis.
+
 - [`utils/`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/tree/main/utils)  
   - [`data.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/utils/data.py): Dataset loading and preprocessing.  
   - [`metrics.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/utils/metrics.py): Evaluation metrics (AUC).  
   - [`label_map.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/utils/label_map.py): Dataset-specific label mappings.  
   - [`formatter.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/utils/formatter.py): Signed measure formatting utilities.
-
-- [`explainability/`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/tree/main/explainability)  
-  - [`surfaces.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/explainability/surfaces.py): Euler surfaces computation and visualization.  
-  - [`visualization.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/explainability/visualization.py): Visualization of model outputs for explainability analysis.  
-
+ 
 - [`results/`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/tree/main/results)  
   Folder for saved models and explainability outputs.
 
@@ -167,4 +168,5 @@ Feel free to reach out for questions or collaborations.
 
 - [**MedMNIST**](https://github.com/MedMNIST/MedMNIST): Lightweight benchmark for medical image analysis.  
 - [**multipers**](https://github.com/simongresta/multipers): Multiparameter persistent homology framework.
+
 
