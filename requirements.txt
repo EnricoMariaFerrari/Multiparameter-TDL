@@ -1,0 +1,9 @@
+multipers==2.3.1
+torch==2.6.0
+torchvision==0.21.0
+numpy==2.2.4
+matplotlib==3.10.1
+scikit-learn==1.6.1
+tqdm==4.67.1
+medmnist==3.0.2
+joblib==1.4.2
