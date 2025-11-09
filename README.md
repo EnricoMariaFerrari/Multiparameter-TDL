@@ -1,4 +1,4 @@
-# 🧠 Image Multiparameter Filtration Learning for Enhancing Explainability in Neural Networks
+# Image Multiparameter Filtration Learning for Enhancing Explainability in Neural Networks
 
 This repository implements **MultiTopoNet**, a topological convolutional neural network that integrates multiparameter filtration learning —via  Euler surface— into image classification pipelines.
 
@@ -13,7 +13,7 @@ The goal is to improve the explainability of neural networks through the bifiltr
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 - [`main/`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/main.py)
   - [`main_experiment.py`](https://github.com/EnricoMariaFerrari/Multiparameter-TDL/blob/main/main/main_experiment.py):  Main script for training, validation, and testing.
@@ -51,7 +51,7 @@ The goal is to improve the explainability of neural networks through the bifiltr
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -102,7 +102,7 @@ They will be **automatically downloaded** the first time you run the code.
 
 ---
 
-## 🔍 Explainability
+## Explainability
 
 To generate **topological explanations** (Euler characteristic surfaces, critical points, etc.), run:
 
@@ -110,11 +110,11 @@ To generate **topological explanations** (Euler characteristic surfaces, critica
 python main_explainability.py --net_path path/to/trained_model.pth
 ```
 
-> ℹ️ More configuration options and documentation coming soon.
+> More configuration options and documentation coming soon.
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 This project requires:
 
@@ -135,7 +135,7 @@ Install all dependencies with:
 pip install -r requirements.txt
 ```
 
-> 💡 For GPU users: you may want to install the CUDA-specific version of PyTorch manually.  
+> For GPU users: you may want to install the CUDA-specific version of PyTorch manually.  
 > Example:
 > ```bash
 > pip install torch==2.6.0+cu124 torchvision==0.21.0+cu124 --index-url https://download.pytorch.org/whl/cu124
@@ -143,30 +143,31 @@ pip install -r requirements.txt
 
 ---
 
-## 📂 Results
+## Results
 
 - Trained models and explanation outputs are saved in the `results/` folder.
 - Default subfolders are automatically created based on dataset and classes.
 
 ---
 
-## 📄 License
+## License
 
 MIT License  
 *(Update or remove this section if a different license is used)*
 
 ---
 
-## ✍️ Author
+## Author
 
 Developed by **Enrico Maria Ferrari**  
 Feel free to reach out for questions or collaborations.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [**MedMNIST**](https://github.com/MedMNIST/MedMNIST): Lightweight benchmark for medical image analysis.  
 - [**multipers**](https://github.com/simongresta/multipers): Multiparameter persistent homology framework.
+
 
 
