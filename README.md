@@ -153,7 +153,6 @@ pip install -r requirements.txt
 ## License
 
 MIT License  
-*(Update or remove this section if a different license is used)*
 
 ---
 
@@ -168,6 +167,7 @@ Feel free to reach out for questions or collaborations.
 
 - [**MedMNIST**](https://github.com/MedMNIST/MedMNIST): Lightweight benchmark for medical image analysis.  
 - [**multipers**](https://github.com/simongresta/multipers): Multiparameter persistent homology framework.
+
 
 
 
