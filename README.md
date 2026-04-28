@@ -90,7 +90,7 @@ python main.py --data_name PathMNIST --epochs 10 --batch_size 64
 
 ---
 
-## 🧬 Datasets
+## Datasets
 
 This project uses datasets from [**MedMNIST**](https://medmnist.com):
 
