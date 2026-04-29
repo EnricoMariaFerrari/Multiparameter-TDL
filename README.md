@@ -1,4 +1,4 @@
-# Image Multiparameter Filtration Learning for Enhancing Explainability in Neural Networks
+# Topological Multiparameter Filtration Learning
 
 This repository implements **MultiTopoNet**, a topological convolutional neural network that integrates multiparameter filtration learning —via  Euler surface— into image classification pipelines.
 
