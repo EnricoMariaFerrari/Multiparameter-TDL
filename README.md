@@ -121,7 +121,7 @@ This project requires:
 - Python ≥ 3.8  
 - PyTorch (tested with 2.6.0)
 - torchvision
-- [multipers](https://github.com/simongresta/multipers) ≥ 2.3.1
+- [multipers](https://github.com/davidlapous/multipers) ≥ 2.3.1
 - [medmnist](https://github.com/MedMNIST/MedMNIST)
 - numpy
 - matplotlib
@@ -166,7 +166,7 @@ Feel free to reach out for questions or collaborations.
 ## Acknowledgements
 
 - [**MedMNIST**](https://github.com/MedMNIST/MedMNIST): Lightweight benchmark for medical image analysis.  
-- [**multipers**](https://github.com/simongresta/multipers): Multiparameter persistent homology framework.
+- [**multipers**](https://github.com/davidlapous/multipers): Multiparameter persistent homology framework.
 
 
 
